@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Michael Butler — Link Hub</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0d1117;
+        color: #e6edf3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .container {
+        max-width: 500px;
+        width: 100%;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .pfp {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #58a6ff;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+        margin: 10px 0 5px;
+    }
+
+    p.bio {
+        font-size: 1rem;
+        line-height: 1.5;
+        opacity: 0.85;
+        margin-bottom: 25px;
+    }
+
+    .link-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .link {
+        background: #161b22;
+        padding: 16px;
+        border-radius: 12px;
+        text-decoration: none;
+        color: #e6edf3;
+        font-size: 1.1rem;
+        transition: 0.2s;
+        border: 1px solid #21262d;
+    }
+
+    .link:hover {
+        background: #1f2732;
+        transform: scale(1.03);
+        border-color: #58a6ff;
+    }
+
+    footer {
+        margin-top: 40px;
+        opacity: 0.5;
+        font-size: 0.85rem;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <img src="YOUR-PHOTO-URL" alt="Profile Photo" class="pfp" />
+
+    <h1>Michael Butler</h1>
+    <p class="bio">Embedded Systems • 3D Fabrication • Custom Electronics • Rapid Prototyping</p>
+
+    <div class="link-list">
+        <a class="link" href="https://3ddesignlabs25.github.io/3ddesignlabs25/" target="_blank">Portfolio Website</a>
+        <a class="link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a class="link" href="https://github.com/3ddesignlabs25" target="_blank">GitHub</a>
+        <a class="link" href="https://3ddesignlabs25.github.io/3ddesignlabs25/projects.html" target="_blank">Projects</a>
+        <a class="link" href="https://3ddesignlabs25.github.io/3ddesignlabs25/3dprints.html" target="_blank">3D Prints</a>
+        <a class="link" href="https://3ddesignlabs25.github.io/3ddesignlabs25/services.html" target="_blank">Services</a>
+        <a class="link" href="https://3ddesignlabs25.github.io/3ddesignlabs25/contact.html" target="_blank">Contact</a>
+    </div>
+
+    <footer>© 2025 Michael Butler — All Rights Reserved</footer>
+</div>
+
+</body>
+</html>
